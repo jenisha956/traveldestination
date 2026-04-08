@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 90vh;
+    background: url('https://source.unsplash.com/1600x900/?beach') no-repeat center center/cover;
+  }
+  
+  /* Cards */
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card {
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Testimonials */
+  .shadow {
+    background: white;
+  }
